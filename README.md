@@ -1,5 +1,5 @@
 
-# Crypto Landing Page
+# Product Home Page
 
  ![Link](https://img.shields.io/badge/Technology%20used%3A-HTML%2FCSS-orange)
 
