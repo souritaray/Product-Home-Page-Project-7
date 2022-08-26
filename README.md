@@ -13,6 +13,9 @@ This is a trending product web page made by using HTML and CSS only.
 ![ouput](Output.png)
 
 
+## Mobile layout:
+
+![mobile](repeat%20mob.png)
 
 
 ## What have I learnt in this project?
@@ -21,6 +24,7 @@ In this project I have learned about :
 - CSS Shadow effects 
 - Z index property in CSS
 - In depth knowledge about CSS selectors
+- Media queries
 
 ## Time required to complete the project
 

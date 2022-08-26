@@ -10,6 +10,7 @@ html {
 body {
   font-family: "Poppins";
 }
+/* NAVBAR */
 nav {
   margin-top: 20px;
   margin-left: 30px;
@@ -28,6 +29,9 @@ nav {
 .intro-section {
   display: flex;
 }
+
+/* Left section  */
+
 .left-section {
   display: flex;
   flex-direction: column;
@@ -96,6 +100,9 @@ nav {
   background-color: #fe5e35;
   color: #fff;
 }
+
+/* Right section */
+
 .right-section {
   display: flex;
   flex-direction: column;
@@ -154,4 +161,149 @@ nav {
   position:absolute;
   bottom:30px;
   right: 268px;
+}
+
+/* RESPONSIVE */
+
+/* IPads and Tablets */
+
+@media only screen and (max-width:760px) {
+.nav-items{
+  display:none;
+}
+.right-section{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.dots {
+  position: absolute;
+  top:475px;
+  right:303px;
+ 
+}
+.right-section button{
+  position:absolute;
+  right: 290px;
+  top: 528px;
+}
+.left-section{
+  position:absolute;
+    top:540px;
+  width:400px;
+}
+.left-section{
+  position:absolute;
+  top:540px;
+
+  text-align: justify;
+ }
+ .left-section h1{
+  width:500px;
+ }
+ 
+ .sub-headlines{
+  margin-left: 30px;
+ }
+ .text{
+  font-size: 10px;
+ }
+}
+
+/* Mobile responsive */
+
+@media only screen and (max-width:480px) {
+  nav{
+    display:flex;
+    padding:5px;
+  }
+  .nav-items{
+    display:none;
+  }
+  nav [alt="logo"]{
+    width:80px;
+  }
+  nav [alt="actions"]{
+    width:150px;
+    position: absolute;
+    left:130px;
+    top:30px;
+  }
+  .intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-section{
+    position:absolute;
+    top:400px;
+    width:450px;
+    text-align: justify;
+   }
+   .left-section h1{
+    width:275px;
+    text-align: center;
+   }
+   .left-section h3{
+    text-align: center;
+    width:275px;
+   }
+   .sub-headlines{
+    margin-left: 30px;
+   }
+   .text{
+    width:270px;
+    font-size: 10px;
+   }
+   .action-btns{
+    position: absolute;
+    top: 500px;
+    display:flex;
+    margin-left: 20px;
+   }
+   .action-btns button{
+    width:110px;
+   }
+  .discount-content + img{
+   position: absolute;
+   width:250px;
+   left:35px;
+  } 
+  .discount{
+    width:73px;
+    position:absolute;
+    left:15px;
+    top:209px;
+  }
+  .discount-content{
+    position:absolute;
+    left:29px;
+    top:223px;
+    
+  }
+  .discount-content h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .discount-content h4 {
+    padding-left: 7px;
+    font-size: 7px;
+   
+  }
+  .dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:20px;
+    top:237px;
+    left:77px;
+    width:200px;
+  }
+  .right-section button{
+    left:53px;
+    top: 382px;
+    margin-left: 40px;
+  }
+
+
 }
