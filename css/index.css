@@ -213,6 +213,9 @@ nav {
 /* Mobile responsive */
 
 @media only screen and (max-width:480px) {
+  body{
+    overflow-x:hidden;
+  }
   nav{
     display:flex;
     padding:5px;
