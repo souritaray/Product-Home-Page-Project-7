@@ -1,5 +1,5 @@
 
-# Crypto Landing Page
+# Product Home Page
 
  ![Link](https://img.shields.io/badge/Technology%20used%3A-HTML%2FCSS-orange)
 
@@ -30,6 +30,8 @@ In this project I have learned about :
 
 Approximately 2 to 3 hours.
 
+## Live Link
+[Product Home Page](https://product-homepage-souritaray.netlify.app/)
 
 
 ## Contact me on:
