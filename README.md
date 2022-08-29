@@ -28,7 +28,7 @@ In this project I have learned about :
 
 ## Time required to complete the project
 
-Approximately 2 to 3 hours.
+Approximately 6 to 8 hours.
 
 ## Live Link
 [Product Home Page](https://product-homepage-souritaray.netlify.app/)
